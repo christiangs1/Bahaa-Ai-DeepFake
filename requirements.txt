@@ -1,11 +1,10 @@
 --extra-index-url https://download.pytorch.org/whl/cu118
 torch==2.2.0
-numpy==2.0.0
+numpy==1.26.4
 opencv-python==4.8.0.74
 onnx==1.15.0
 insightface==0.7.3
 psutil==5.9.6
-tk==0.1.0
 customtkinter==5.2.0
 tkinterdnd2==0.3.0; sys_platform != 'darwin' and platform_machine != 'arm64'
 pillow==10.1.0
@@ -14,3 +13,4 @@ tensorflow==2.18.0
 protobuf==4.23.4
 tqdm==4.66.0
 gfpgan==1.4.0
+basicsr==1.4.2
