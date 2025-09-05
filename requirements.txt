@@ -1,8 +1,10 @@
 --extra-index-url https://download.pytorch.org/whl/cu118
 torch==2.2.0
+torchvision
+torchaudio
 numpy==1.26.4
 opencv-python==4.8.0.74
-onnx==1.15.0
+onnx==1.16.0
 insightface==0.7.3
 psutil==5.9.6
 customtkinter==5.2.0
@@ -14,3 +16,5 @@ protobuf==4.23.4
 tqdm==4.66.2
 git+https://github.com/TencentARC/GFPGAN.git
 basicsr==1.4.2
+opennsfw2
+keras
